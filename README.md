@@ -1,5 +1,5 @@
 # esp-rolling-stones :crab:
-Wokwi-example how the `8x8 LED Dot Matrix Display` (`max7219` in our case) is initialised for ESP32
+Wokwi-example how the `8x8 LED Dot Matrix Display` (`max7219` with help of [my crate](https://github.com/playfulFence/esp-max7219-nostd) in our case) is initialised for ESP32
 
 ## Instructions
 
@@ -24,7 +24,7 @@ In case you will have additional questions - feel free to open an issue :wink:
 
 
 ## Description
-There's a short example for newcomers that shows, 8x8 LED Matrix display is initialised on different Espressif boards (ESP32, ESP32S2, ESP32C3) in bare-metal, this config is for ESP32 in terms of example, you can find brief instructions for other chips below<br>
+There's a short example for newcomers that shows, how 8x8 LED Matrix display is initialised on different Espressif boards (ESP32, ESP32S2, ESP32C3) in bare-metal, this config is for ESP32 in terms of example, you can find brief instructions for other chips below<br>
 
 
 >### **P.S.** : You can edit string at line 92 :wink:
