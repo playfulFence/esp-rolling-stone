@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "author": "Kirill Mikhailov (playfulFence)",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-esp32-devkit-v1",
+      "id": "esp",
+      "top": -128.8,
+      "left": 53.1,
+      "attrs": { "builder": "rust-nostd-esp" }
+    },
+    {
+      "type": "wokwi-max7219-matrix",
+      "id": "matrix1",
+      "top": -252.3,
+      "left": -183.3,
+      "attrs": { "chain": "7", "layout": "fc16" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX0", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX0", "$serialMonitor:TX", "", [] ],
+    [ "esp:3V3", "matrix1:V+", "green", [ "v1.97", "h269.06", "v-245.91" ] ],
+    [ "esp:GND.1", "matrix1:GND", "black", [ "h258.56", "v-224.84" ] ],
+    [ "esp:D23", "matrix1:DIN", "white", [ "h245.06", "v-90.24" ] ],
+    [ "esp:D15", "matrix1:CS", "blue", [ "h233.81", "v-196.14" ] ],
+    [ "esp:D18", "matrix1:CLK", "white", [ "h223.31", "v-128.74" ] ]
+  ]
+}
