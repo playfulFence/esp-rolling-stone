@@ -1,4 +1,4 @@
-# esp-rolling-stones :crab:
+# esp-rolling-stone :crab:
 Wokwi-example how the `8x8 LED Dot Matrix Display` (`max7219` with help of [my crate](https://github.com/playfulFence/esp-max7219-nostd) in our case) is initialised for ESP32
 
 ## Instructions
