@@ -6,7 +6,7 @@ Wokwi-example how the `8x8 LED Dot Matrix Display` (`max7219` with help of [my c
 ### Build
 
 ```
-cargo build --target xtensa-esp32s2-none-elf --release
+cargo build --target xtensa-esp32-none-elf --release
 ```
 
 ### Execution with VSCode Wokwi extension  
@@ -50,7 +50,7 @@ Board type in `diagram.toml` is:
 "type": "board-esp32-s2-devkitm-1""
 ```
 ---
-For `esp32-s3` board target (and corresponding changes for paths in `wokwi.toml`) is:
+For `esp32s3` board target (and corresponding changes for paths in `wokwi.toml`) is:
 ```
 xtensa-esp32s3-none-elf
 ```
