@@ -60,9 +60,14 @@ esp-max7219-nostd = { version = "0.1.0", git = "https://github.com/playfulFence/
 default = [ "rt", "eh1" ]
 rt = ["xtensa-lx-rt"] # for esp32 and esp32s2 chips
 # rt = ["riscv-rt"] # for esp32c3 chip
-# eh1 = []
-eh1 = ["esp32-hal/eh1"]
-# eh1 = ["esp32s2-hal/eh1"]
-# eh1 = ["esp32c3-hal/eh1"]
+# eh1 = ["esp32s3"]
+eh1 = ["esp32-hal/eh1", "esp32"]
+# eh1 = ["esp32s2-hal/eh1", "esp32s2]
+# eh1 = ["esp32c3-hal/eh1", "esp32c3]
+
+esp32 = []
+esp32s2 = []
+esp32s3 = []
+esp32c3 = []
 
 

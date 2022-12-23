@@ -32,7 +32,6 @@ use esp_max7219_nostd::{prepare_display, show_moving_text_in_loop, remove_gaps_i
 use esp_max7219_nostd::mappings::SingleDisplayData;
 
 use esp_backtrace as _;
-use xtensa_atomic_emulation_trap as _;
 
 #[cfg(feature="xtensa-lx-rt")]
 use xtensa_lx_rt::entry;
